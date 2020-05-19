@@ -2,16 +2,10 @@ import 'package:flutter/material.dart';
 
 import '../util/menu_item.dart';
 
-class MenuExpandedWidget extends StatefulWidget {
+class MenuExpandedWidget extends StatelessWidget {
   const MenuExpandedWidget({Key key, this.item}) : super(key: key);
 
   final MenuItem item;
-
-  @override
-  _MenuExpandedWidgetState createState() => _MenuExpandedWidgetState();
-}
-
-class _MenuExpandedWidgetState extends State<MenuExpandedWidget> {
   
   @override
   Widget build(BuildContext context) {
@@ -34,14 +28,14 @@ class _MenuExpandedWidgetState extends State<MenuExpandedWidget> {
               borderRadius: BorderRadius.circular(50),
             ),
             child: Icon(
-              widget.item.icon,
-              size: widget.item.iconSize,
-              color: Colors.purple[600],
+              item.icon,
+              size: item.iconSize,
+              color: Colors.black,
             ),
           ),
           SizedBox(height: 5),
           Text(
-            widget.item.label,
+            item.label,
             style: TextStyle(
               color: Colors.grey[600],
             ),
