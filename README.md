@@ -19,20 +19,30 @@ The following images are up-to-date versions of the app. I'll update them as the
 
 ## Unidades
 
-![Página de Unidades](assets/images/Screenshot_unit_page_view.png) ![Página de Unidades no Modo Escuro](assets/images/Screenshot_unit_page_view_dark.png)
+|                        Página de Unidades                        |                          Página de Unidades no Modo Escuro                           |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+|![Página de Unidades](assets/images/Screenshot_unit_page_view.png)|![Página de Unidades no Modo Escuro](assets/images/Screenshot_unit_page_view_dark.png)|
 
 ## Ferramentas
 
-![Página de Ferramentas](assets/images/Screenshot_tools.png) ![Página de Ferramentas no Modo Escuro](assets/images/Screenshot_tools_dark.png)
+|                   Página de Ferramentas                   |                      Página de Ferramentas no Modo Escuro                      |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------ |
+![Página de Ferramentas](assets/images/Screenshot_tools.png)|![Página de Ferramentas no Modo Escuro](assets/images/Screenshot_tools_dark.png)|
 
 ## Finanças
 
-![Página de Finanças](assets/images/Screenshot_finance.png) ![Página de Finanças no Modo Escuro](assets/images/Screenshot_finance_dark.png)
+|                    Página de Finanças                    |                       Página de Finanças no Modo Escuro                       |
+| -------------------------------------------------------- | ----------------------------------------------------------------------------- |
+![Página de Finanças](assets/images/Screenshot_finance.png)|![Página de Finanças no Modo Escuro](assets/images/Screenshot_finance_dark.png)|
 
 ## Matemática
 
-![Página de Matemática](assets/images/Screenshot_math.png) ![Página de Matemática no Modo Escuro](assets/images/Screenshot_math_dark.png)
+|                  Página de Matemática                   |                     Página de Matemática no Modo Escuro                      |
+| ------------------------------------------------------- | ---------------------------------------------------------------------------- |
+![Página de Matemática](assets/images/Screenshot_math.png)|![Página de Matemática no Modo Escuro](assets/images/Screenshot_math_dark.png)|
 
 ## Gaveta
 
-![Gaveta](assets/images/Screenshot_drawer.png) ![Gaveta no Modo Escuro](assets/images/Screenshot_drawer_dark.png)
+|                   Gaveta                    |                      Gaveta no Modo Escuro                       |
+| ------------------------------------------- | ---------------------------------------------------------------- |
+![Gaveta](assets/images/Screenshot_drawer.png)|![Gaveta no Modo Escuro](assets/images/Screenshot_drawer_dark.png)|
