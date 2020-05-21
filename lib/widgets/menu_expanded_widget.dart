@@ -14,7 +14,7 @@ class MenuExpandedWidget extends StatelessWidget {
       height: height / 7.5,
       width: height / 7.6,
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: (Theme.of(context).appBarTheme.color == Colors.white) ? Colors.grey[300] : Colors.grey[600],
         borderRadius: BorderRadius.circular(10),
       ),
       child: Column(
@@ -37,7 +37,7 @@ class MenuExpandedWidget extends StatelessWidget {
           Text(
             item.label,
             style: TextStyle(
-              color: Colors.grey[600],
+              color: Theme.of(context).primaryTextTheme.headline6.color,
             ),
             textAlign: TextAlign.center,
           )
