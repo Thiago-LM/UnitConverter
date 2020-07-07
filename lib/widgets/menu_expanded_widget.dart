@@ -3,9 +3,10 @@ import 'package:flutter/material.dart';
 import '../util/menu_item.dart';
 
 class MenuExpandedWidget extends StatelessWidget {
-  const MenuExpandedWidget({Key key, this.item}) : super(key: key);
+  const MenuExpandedWidget({Key key, this.item, this.onPressed}) : super(key: key);
 
   final MenuItem item;
+  final Function onPressed;
   
   @override
   Widget build(BuildContext context) {
@@ -27,10 +28,13 @@ class MenuExpandedWidget extends StatelessWidget {
               color: Colors.grey[200],
               borderRadius: BorderRadius.circular(50),
             ),
-            child: Icon(
-              item.icon,
-              size: item.iconSize,
+            child: IconButton(
+              icon: Icon(
+                item.icon,
+                size: item.iconSize,
+              ),
               color: Colors.black,
+              onPressed: onPressed,
             ),
           ),
           SizedBox(height: 5),

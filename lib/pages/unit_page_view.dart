@@ -44,6 +44,7 @@ class _UnitPageViewState extends State<UnitPageView> {
                   panel.value.length, (index) {
                     return MenuExpandedWidget(
                       item: panel.value[index],
+                      onPressed: panel.value[index].onPressed,
                     );
                   },
                 ),

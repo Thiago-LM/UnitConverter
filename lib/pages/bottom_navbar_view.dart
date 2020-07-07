@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
 import '../pages/unit_page_view.dart';
-import '../util/app_state_notifier.dart';
 import '../util/bottom_navbar_destination.dart';
 
 class BottomNavBarView extends StatefulWidget {
-  const BottomNavBarView({Key key, this.title, this.destination}) : super(key: key);
+  const BottomNavBarView({Key key, this.title, this.destination})
+      : super(key: key);
 
   final String title;
   final Destination destination;
@@ -16,10 +15,10 @@ class BottomNavBarView extends StatefulWidget {
 }
 
 class _BottomNavBarViewState extends State<BottomNavBarView> {
-
   int _selectedIndex = 0;
 
-  static const TextStyle optionStyle = TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
+  static const TextStyle optionStyle =
+      TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
 
   static const List<Widget> _widgetOptions = <Widget>[
     UnitPageView(),
@@ -40,17 +39,7 @@ class _BottomNavBarViewState extends State<BottomNavBarView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-        actions: <Widget>[
-          Switch(
-            value: Provider.of<AppStateNotifier>(context).isDarkModeOn,
-            onChanged: (boolVal) {
-              Provider.of<AppStateNotifier>(context, listen: false).updateTheme(boolVal);
-            },
-          ),
-        ],
-      ),
+      appBar: AppBar(title: Text(widget.title)),
       drawer: Drawer(
         child: ListView(
           padding: EdgeInsets.zero,

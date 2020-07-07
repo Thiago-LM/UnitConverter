@@ -1,16 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class MenuItem {
   IconData icon;
   double iconSize;
   String label;
+  Function onPressed;
 
-  MenuItem({this.icon, this.iconSize, this.label});
+  MenuItem({this.icon, this.iconSize, this.label, this.onPressed});
 
   static List<MenuItem> getCommonItens() {
     return [
-      MenuItem(icon: FontAwesomeIcons.weightHanging, iconSize: 36, label: 'Massa'),
+      MenuItem(icon: FontAwesomeIcons.weightHanging, iconSize: 36, label: 'Massa', onPressed: () => Get.toNamed('/WeightPage')),
       MenuItem(icon: FontAwesomeIcons.ruler, iconSize: 36, label: 'Comprimento'),
       MenuItem(icon: FontAwesomeIcons.car, iconSize: 36, label: 'Velocidade'),
       MenuItem(icon: FontAwesomeIcons.gasPump, iconSize: 36, label: 'Combustível'),
